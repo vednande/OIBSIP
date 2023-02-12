@@ -1,0 +1,28 @@
+@media screen and (max-width: 1200px) {
+    #three p {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 1025px) {
+    #two{
+        gap: 2rem;
+    }
+    #two > img{
+        width: 24%;
+        margin: 0 0 0 2rem;
+    }
+}
+@media screen and (max-width: 769px) {
+    #one{
+        padding: 10rem;
+    }
+    #two{
+        flex-direction: column;
+    }
+    #two > img{
+        width: 30%;
+    }
+    #three p{
+        width: 80%;
+    }
+}
